@@ -2,8 +2,11 @@
 
 import time
 import requests
+import os
+from dotenv import load_dotenv
 
-API_KEY = "e8fe1974f44bb72febf345cda38c049a"
+load_dotenv()
+API_KEY = os.getenv("CAPTCHA_API_KEY")
 BASE_URL = "http://2captcha.com"
 
 def solve_recaptcha(sitekey: str, page_url: str) -> str:
