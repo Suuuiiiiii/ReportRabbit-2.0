@@ -40,15 +40,12 @@ def create_instagram_account():
             page.fill("input[name=password]", password)
             page.click("button[type=submit]")
 
-            # Wait for birthday page
-            page.wait_for_selector("select[title='Year']", timeout=15000)
-
             # Birthday selection (Year: 2000, Month/Day: random valid)
             print("[*] Selecting birthday...")
-            page.select_option("select[title='Year']", "2000")
-            page.select_option("select[title='Month']", str(random.randint(1, 12)))
-            page.select_option("select[title='Day']", str(random.randint(1, 28)))
-            page.click("button[type=submit]")
+            page.locator("//select[@name='Year']").select_option(index=27)
+            page.locator("//select[@name='month']").select_option(index=5)
+            page.locator("//select[@name='day']").select_option(index=11)
+            page.click("button[type=next]")
 
             # Wait for reCAPTCHA
             print("[*] Solving CAPTCHA...")
