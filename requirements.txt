@@ -1,0 +1,6 @@
+requests==2.31.0
+playwright==1.44.0
+certifi>=2023.7.22
+rich==13.5.2
+loguru==0.7.2
+python-dotenv==1.0.1
