@@ -71,8 +71,8 @@ No bloat. No bugginess. No unnecessary threads.
 ### Installation
 
 ```bash
-git clone https://github.com/youruser/ReportRabbit.git
-cd ReportRabbit
+git clone https://github.com/Suuuiiiiii/ReportRabbit-2.0
+cd ReportRabbit-2.0
 
 chmod +x setup.sh
 ./setup.sh
@@ -156,15 +156,11 @@ Choose:
 Currently, ReportRabbit logs all status messages to the terminal.
 If needed, future versions can include:
 
-JSON log export
+JSON log export.
 
-Success/fail report per user
+Success/fail report per user.
 
-report.log file for audit trail
-
-
-Let me know if you want this feature added.
-
+report.log file for audit trail.
 
 ---
 
@@ -217,7 +213,7 @@ Violate Instagram’s TOS for malicious gain
 Automate spam, hate, or impersonation reports
 
 
-> YOU are responsible for how you use ReportRabbit.
+> YOU are responsible for how you use ReportRabbit-2.0.
 The author takes no liability for any misuse.
 
 
@@ -227,7 +223,7 @@ The author takes no liability for any misuse.
 
 🌀 Final Words
 
-ReportRabbit is for one purpose and one purpose only:
+ReportRabbit-2.0 is for one purpose and one purpose only:
 Targeted takedown of explicit accounts that violate platform guidelines — using automation as a force for cleanup.
 
 No games.
